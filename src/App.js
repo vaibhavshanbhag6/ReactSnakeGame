@@ -122,6 +122,7 @@ function App() {
         <Snake/>
         <SnakeFood/>
       </div>
+      <h5>Powered by ReactJS</h5>
       </center>
     </div>
   );

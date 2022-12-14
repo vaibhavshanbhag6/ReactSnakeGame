@@ -1,0 +1,25 @@
+.game-zone{
+  position: relative;
+  margin: 50px auto;
+  height: 700px;
+  width: 700px;
+  border: 2px solid black;
+}
+
+.snake{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  border: 1px solid white;
+  background-color: black;
+  z-index: 2;
+}
+
+.snake-food{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  border: 1px solid white;
+  background-color: red;
+  z-index: 1;
+}

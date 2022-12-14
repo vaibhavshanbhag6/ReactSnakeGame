@@ -116,13 +116,12 @@ function App() {
   return (
     <div className="App">
     <center>
-    <h1>SNAKE GAME</h1>
+    <h2>SNAKE GAME</h2>
     <Header/>
       <div className='game-zone'>
         <Snake/>
         <SnakeFood/>
       </div>
-      <h5>Powered by ReactJS</h5>
       </center>
     </div>
   );

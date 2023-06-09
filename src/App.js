@@ -107,7 +107,7 @@ function App() {
     if(start){
       return <h3>SCORE: {snake.length-2}</h3>;
     }else{
-      return <h3>Press -&gt; to Start Game!!</h3>;
+      return <h3>Press -&gt; to Start Game!!!!</h3>;
     }
     
   }

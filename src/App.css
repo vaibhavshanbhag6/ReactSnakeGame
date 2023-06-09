@@ -2,7 +2,7 @@
   position: relative;
   margin: 50px auto;
   height: 70vh;
-  max-width: 70vh;
+  width: 70vh;
   border: 2px solid black;
 }
 
@@ -24,6 +24,9 @@
   z-index: 1;
 }
 
-@media (max-width: 800px) {
-  
+@media (max-width: 500px) {
+  .game-zone{
+    height: 70vw;
+    width: 70vw;
+  }
 }
